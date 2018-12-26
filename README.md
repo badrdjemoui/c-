@@ -1,8 +1,6 @@
 # c-
 Common C# Programming Mistake #1: Using a reference like a value or vice versa
 
-Programmers of C++, and many other languages, are accustomed to being in control of whether the values they assign to variables are simply values or are references to existing objects. In C Sharp programming, however, that decision is made by the programmer who wrote the object, not by the programmer who instantiates the object and assigns it to a variable. This is a common “gotcha” for those trying to learn C# programming.
-
 If you don’t know whether the object you’re using is a value type or reference type, you could run into some surprises. For example:
 
       Point point1 = new Point(20, 30);
